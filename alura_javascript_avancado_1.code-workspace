@@ -3,5 +3,12 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+		"liveServer.settings.root": "/dist/",
+		"liveServer.settings.fullReload": true,
+		"liveServer.settings.port": 0,
+		"liveServer.settings.host": "127.0.0.1",
+	}
 }
