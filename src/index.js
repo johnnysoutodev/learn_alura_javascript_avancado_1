@@ -26,7 +26,7 @@ contaCorrenteAlice.cliente = cliente2;
 contaCorrenteRicardo.depositar(1000);
 contaCorrenteRicardo.sacar(200);
 
-
+contaCorrenteRicardo.transferir(400, contaCorrenteAlice);
 
 console.log(contaCorrenteRicardo);
 console.log(contaCorrenteAlice);
