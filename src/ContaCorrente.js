@@ -2,6 +2,7 @@
 
 export class ContaCorrente{
     agencia;
+    cliente;
     _saldo = 0;
 
     sacar(valor){
