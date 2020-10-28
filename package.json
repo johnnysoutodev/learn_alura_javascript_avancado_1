@@ -1,0 +1,28 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Projeto do bytebank para seus clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnysoutodev/alura_javascript_avancado_1.git"
+  },
+  "keywords": [
+    "alura",
+    "curso",
+    "javascript",
+    "avancado",
+    "bytebank"
+  ],
+  "author": "Johnny Souto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnysoutodev/alura_javascript_avancado_1/issues"
+  },
+  "homepage": "https://github.com/johnnysoutodev/alura_javascript_avancado_1#readme",
+  "type": "module"
+}
