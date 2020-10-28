@@ -1,11 +1,5 @@
 // index.js
 
-class Cliente{
-    nome;
-    cpf;
-    rg;
-}
-
 class ContaCorrente{
     agencia;
     _saldo = 0;
