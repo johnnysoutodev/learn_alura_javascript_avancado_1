@@ -37,15 +37,14 @@ cliente2.agencia = 1001;
 cliente2.saldo = 0;
 
 const contaCorrenteRicardo = new ContaCorrente();
-contaCorrenteRicardo.saldo = 1000;
+contaCorrenteRicardo.saldo = 0;
 contaCorrenteRicardo.agendcia = 1001;
 
 const contaCorrenteAlice = new ContaCorrente();
 contaCorrenteAlice.saldo = 0;
 contaCorrenteAlice.agencia = 1001;
 
+contaCorrenteRicardo.depositar(1000);
 contaCorrenteRicardo.sacar(200);
 
-console.log(cliente1);
-console.log(cliente2);
 console.log(contaCorrenteRicardo.saldo);
