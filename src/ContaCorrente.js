@@ -1,4 +1,6 @@
-class ContaCorrente{
+// ContaCorrente.js
+
+export class ContaCorrente{
     agencia;
     _saldo = 0;
 
